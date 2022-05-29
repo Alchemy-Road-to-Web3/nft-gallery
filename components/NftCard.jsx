@@ -45,6 +45,7 @@ export default function NFTCard({ nft }) {
           <a
             className="block text-blue-400 text-sm text-center"
             target="_blank"
+            rel="noreferrer"
             href={`https://etherscan.io/token/${nft.contract.address}`}
           >
             View on Etherscan
