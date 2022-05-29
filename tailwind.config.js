@@ -6,11 +6,8 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        darkblue: "rgb(40, 50, 70, 0.85)",
-        "brand-1": "#9d46eb",
-        "brand-2": "#7560da",
-        "brand-3": "#00a6ff",
-        "brand-4": "#527ace",
+        darkgrey: "rgb(40, 50, 70, 0.85)",
+        brand: "#00a6ff",
       },
     },
   },

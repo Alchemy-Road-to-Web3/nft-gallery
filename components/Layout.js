@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Layout({ title, keywords, description, children, className = "" }) {
   return (
-    <div className="font-poppins bg-darkblue min-h-screen">
+    <div className="font-poppins bg-brand/50 min-h-screen">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -10,7 +10,7 @@ export default function Layout({ title, keywords, description, children, classNa
       </Head>
 
       <div
-        className={`text-white overflow-x-hidden min-h-screen max-w-2xl mx-auto border ${className}`}
+        className={`text-darkgrey overflow-x-hidden min-h-screen max-w-6xl mx-auto bg-white shadow-lg ${className}`}
       >
         {children}
       </div>
@@ -19,7 +19,7 @@ export default function Layout({ title, keywords, description, children, classNa
 }
 
 Layout.defaultProps = {
-  title: "Raod to Web3 | NFT Gallery",
+  title: "Road to Web3 | NFT Gallery",
   description: "View your NFTs with our beautiful gallery UI!",
   keywords: "blockchain, nft, roadtoweb3, web3",
 };
